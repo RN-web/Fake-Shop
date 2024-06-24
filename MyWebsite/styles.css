@@ -1,0 +1,119 @@
+body{
+    
+    /*background: linear-gradient(180deg,  rgb(49, 9, 142),  rgb(67, 106, 236)) ;*/
+    background: rgb(249, 233, 206);
+    background-attachment:fixed;
+    font-family: Rubik;
+    margin:0;
+    padding: 0;
+}
+header{
+    /*background: rgb(36, 3, 112);*/
+    background: linear-gradient(180deg,  rgb(49, 9, 142),  rgb(67, 106, 236)) ;
+    padding: 20px;
+}
+button.cart{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    color: rgb(249, 233, 206);
+    font-size: 60px;
+}
+section{
+    text-align: center;
+    background: rgb(249, 233, 206);
+}
+div{
+    margin: 5px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    
+}
+li{
+    display: inline-block;
+    text-decoration: underline;
+    color: rgb(0,0,0);
+    margin: 10px;
+}
+    
+li:hover{
+    font-weight:  bold;
+}
+.item-display{
+    color: rgb(160,82,45);
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+figure.item{
+    display:inline-block;
+}
+a:visited {
+    color: black;
+  }
+a.item-display{
+    color: rgb(160,82,45);
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+a.item-display:visited {
+    color: rgb(160,82,45);
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+a:hover{
+    font-weight:  bold;
+}
+img.circles{
+    border-radius: 50%;
+}
+img.round{
+    border-radius: 5%;
+}
+h2{
+    color: rgb(171, 126, 76);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+h2.welcome{
+    font-size: 58px;
+    margin-bottom: 20px;
+    color: rgb(95, 57, 15);
+}
+h3{
+    color: rgb(171, 126, 76);
+    font-size: 35px;
+    margin: 20px;
+}
+h4{
+    color: rgb(103, 65, 22);
+    font-size: 18px;
+    margin: 2px;
+}
+p.info-text{
+    color: rgb(103, 65, 22);
+    font-size: 15px;
+}
+p.item-text{
+    color: rgb(103, 65, 22);
+    font-size: 25px;
+}
+.useInline{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.textInline{
+    margin-left: 10%;
+}

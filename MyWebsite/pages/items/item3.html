@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Roshan's Shop</title>
+        <link rel="stylesheet", href="../../styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Nutella: A Delicious Hazelnut Based Spread</h1>
+            <button onclick="showCart()" class="cart"><img src="../../images/cart.png" width="90" height="80"></button>
+            <script>
+                function showCart() {
+                    alert("Nutella is in the car");
+                }
+            </script>
+        </header>
+        
+        <section>
+            <div >
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>   
+                    <li><a href="../store.html">Store</a></li>
+                    <li><a href="../info.html">About Me</a></li>
+                </ul>   
+            </div>
+
+        </section>
+        
+        <section class="useInline">
+            <figure>
+                <img class="round" src="../../images/nutella.jpg" width="300" height="300">
+                <p class="item-text">Nutella</p>
+            </figure>
+            <h4 >Item Info:<br><br>Nutella is a delicious nutty and chocolatey spread<br> that goes great with a plethora of food. Whether <br>it is a slice of toast, a cup of ice cream, or with<br> some fruit, nutella can make all these treats a <br>little bit better.</h4>
+        </section>
+        <Section>
+            <button onclick="addToCart()" style="background-color: rgb(103, 65, 22);color: rgb(249, 233, 206);border-radius: 5px; font-size: 25px; margin: 10px">Add to Cart</button>
+            <script>
+                function addToCart() {
+                    alert("Item added to cart");
+                }
+            </script>
+        </Section>
+        <footer>
+
+        </footer>
+        
+    </body>
+</html>
